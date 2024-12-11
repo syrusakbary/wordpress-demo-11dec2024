@@ -1,0 +1,10 @@
+capabilities:
+  database:
+    engine: mysql
+kind: wasmer.io/App.v0
+name: wordpress-demo-11dec2024
+owner: syrusakbary
+package: .
+volumes:
+- mount: /app/wp-content
+  name: wp-content
